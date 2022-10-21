@@ -326,7 +326,7 @@ java AirlineReservation <filename>
 
 The program takes in **exactly one** command-line argument (`argv[0]`), which is expected to be the filename (more specifically, the file path) to your input CSV file. This CSV file is used to initalize passenger bookings in the plane. For example, if you made a new CSV file called `customLoad.csv`, then you would run `java AirlineReservation customLoad.csv` in your terminal.
 
-You are highly encouraged to make your own CSV files to test your functions. Please use the format as described under the input section when creating your files. Simply create a new file, then save it as `<filename>.csv` under the same folder as your `AirlineReservation.java` file.
+You are highly encouraged to make your own CSV files to test your functions. Please use the format as described under the [Input](https://github.com/CaoAssignments/cse11-fa22-pa4-airline-reservation-starter#Input) section when creating your files. Simply create a new file, then save it as `<filename>.csv` under the same folder as your `AirlineReservation.java` file.
 
 ***For this programming assignment, all test cases are visible on Gradescope.***
 
