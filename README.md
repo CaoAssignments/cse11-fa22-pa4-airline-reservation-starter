@@ -146,7 +146,7 @@ We will pass the CSV's file name through command line arguments and utilize Java
 - `public static boolean upgrade(String passengerName, int upgradeClass)`
     - Upgrade `passengerName` to a seat in the `upgradeClass`. 
     - If `passengerName` is `null` or `passengerName` is not found in `passengers`, return `false`.
-    - If `upgradeClass` is lower or equal to `passengerName`'s existing class, return `false` and do not modify `passengers`.
+    - If `upgradeClass` is lower or equal to `passengerName`'s existing class, return `false` and do not modify `passengers`. *(i.e. a First Class passenger trying to 'upgrade' to Business Class)*    
     - Otherise, upgrade (move) `passengerName` to the first available row in `upgradeClass`.
     - Return `true` if the upgrade is successful, `false` otherwise.
     - You may assume that `travelClass` is `FIRST_CLASS`, `BUSINESS_CLASS`, or `ECONOMY_CLASS`.
