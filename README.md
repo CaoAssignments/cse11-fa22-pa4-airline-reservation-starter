@@ -107,7 +107,7 @@ We will pass the CSV's file name through command line arguments and utilize Java
     - Return the last row of a given `travelClass`.
     - Return `-1` if `travelClass` is not `FIRST_CLASS`, `BUSINESS_CLASS`, or `ECONOMY_CLASS`.
     - Ex: `findLastRow(ECONOMY_CLASS)` using `sample.csv` returns 9.
-- `private static String[] initPassengers(String fileName) throws FileNotFoundException`
+- `private static void initPassengers(String fileName) throws FileNotFoundException`
     - Initializes the static variables `passengers`, `planeRows`, `firstClassRows`, and `businessClassRows` using the contents of the CSV file named `fileName`.
     - You may assume the following:
         - The file named fileName exists and is a valid, properly formatted CSV file.
@@ -154,7 +154,7 @@ We will pass the CSV's file name through command line arguments and utilize Java
 
 #### Provided Methods
 
-- `public static void main (String[] args) throws Exception`
+- `public static void main (String[] args) throws FileNotFoundException`
     - Provides a command line interface where the user can utilize the Airline Reservation System.
     - The following commands are available: 
         - book \<travelClass(F/B/E)\> \<passengerName\>
