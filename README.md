@@ -85,6 +85,7 @@ We will pass the CSV's file name through command line arguments and utilize Java
 
 ### Static Variables
 > __Warning__ 
+> 
 > *Do NOT modify these variable names.*
 > *Do NOT add any additional static variables. (Unless they are private static final variables.)*
 - `static String[] passengers`: Array used to store passenger names in their assigned seat row. If there is no passenger in a row, the corresponding index will contain `null`. Duplicate names are not allowed.
