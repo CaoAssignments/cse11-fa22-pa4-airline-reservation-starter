@@ -114,7 +114,7 @@ We will pass the CSV's file name through command line arguments and utilize Java
         - There are no duplicate passenger names.
         - firstClassRows $\geq$ 1
         - businessClassRows $\geq$ 1
-        - (planeRows - firstClassRows - businessClassRows) $\geq$ 1 *(The number of economy rows is $\geq$ 1)*
+        - (planeRows - firstClassRows - businessClassRows) $\geq$ 1 *(The number of economy rows is* $\geq$ *1)*
     - In other words, you may assume that there is *at least one row* in each travel class.
     - *Note: It is possible that the CSV file only has 1 line, in which case `passengers` should still be initialized with all empty seats.*
 
