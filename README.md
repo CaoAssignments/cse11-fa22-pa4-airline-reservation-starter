@@ -4,7 +4,9 @@
 There is an [FAQ post](https://piazza.com/class/l871flmwsqy8i/post/449) on Piazza. Please read that post first if you have any questions.
 
 **Download the starter code from GitHub by clicking Code-> Download ZIP**
-
+> __Warning__ 
+> 
+> *Do NOT add any additional import statements. Doing so will result in a **0** for your submission.*
 ## Provided Files
 - AirlineReservation.java
 - sample.csv
